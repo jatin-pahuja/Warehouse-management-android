@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:http="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <TextView
+        android:id="@+id/tvDate_R"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="5dp"
+        android:text="Date: "
+        android:textColor="#000000"
+        android:textSize="18sp"
+        http:layout_constraintBottom_toTopOf="@+id/guideline10"
+        http:layout_constraintEnd_toStartOf="@+id/guideline"
+        http:layout_constraintStart_toStartOf="parent"
+        http:layout_constraintTop_toTopOf="@+id/guideline7" />
+
+    <TextView
+        android:id="@+id/tvQuantity_R"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="5dp"
+        android:text="Type: "
+        android:textColor="#000000"
+        android:textSize="18sp"
+        http:layout_constraintBottom_toTopOf="@+id/guideline8"
+        http:layout_constraintEnd_toStartOf="@+id/guideline"
+        http:layout_constraintStart_toStartOf="parent"
+        http:layout_constraintTop_toTopOf="@+id/guideline10" />
+
+    <TextView
+        android:id="@+id/tvType_R"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="5dp"
+        android:text="Quantity: "
+        android:textColor="#000000"
+        android:textSize="18sp"
+        http:layout_constraintBottom_toBottomOf="parent"
+        http:layout_constraintEnd_toStartOf="@+id/guideline"
+        http:layout_constraintStart_toStartOf="parent"
+        http:layout_constraintTop_toTopOf="@+id/guideline8" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        http:layout_constraintGuide_percent="0.35" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        http:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        http:layout_constraintGuide_percent="0.77" />
+
+    <TextView
+        android:id="@+id/tvDate_R2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:shadowColor="#000000"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:text="TextViewDate"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        http:layout_constraintBottom_toTopOf="@+id/guideline10"
+        http:layout_constraintEnd_toEndOf="parent"
+        http:layout_constraintStart_toStartOf="@+id/guideline6"
+        http:layout_constraintTop_toTopOf="@+id/guideline7" />
+
+    <TextView
+        android:id="@+id/tvQuantity_R2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:shadowColor="#000000"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:text="TextViewQuantity"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        http:layout_constraintBottom_toBottomOf="parent"
+        http:layout_constraintEnd_toEndOf="parent"
+        http:layout_constraintStart_toStartOf="@+id/guideline6"
+        http:layout_constraintTop_toTopOf="@+id/guideline8" />
+
+    <TextView
+        android:id="@+id/tvType_R2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:shadowColor="#000000"
+        android:shadowDx="1.1"
+        android:shadowDy="1.1"
+        android:shadowRadius="1.1"
+        android:text="TextViewType"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        http:layout_constraintBottom_toTopOf="@+id/guideline8"
+        http:layout_constraintEnd_toEndOf="parent"
+        http:layout_constraintStart_toStartOf="@+id/guideline6"
+        http:layout_constraintTop_toTopOf="@+id/guideline10" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        http:layout_constraintGuide_percent="0.33" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        http:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/tvItemCode_R"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="5dp"
+        android:text="Code article: "
+        android:textColor="#000000"
+        android:textSize="18sp"
+        http:layout_constraintBottom_toTopOf="@+id/guideline7"
+        http:layout_constraintEnd_toStartOf="@+id/guideline"
+        http:layout_constraintStart_toStartOf="parent"
+        http:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvItemCode_R2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:shadowColor="#000000"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:text="TextViewItemCode"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        http:layout_constraintBottom_toTopOf="@+id/guideline7"
+        http:layout_constraintEnd_toEndOf="parent"
+        http:layout_constraintStart_toStartOf="@+id/guideline6"
+        http:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

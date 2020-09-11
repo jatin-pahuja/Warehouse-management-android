@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:http="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="175dp">
+
+    <TextView
+        android:id="@+id/tvItemCode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="5dp"
+        android:text=" Article code: "
+        android:textColor="#000000"
+        android:textSize="17sp"
+        http:autoSizeTextType="uniform"
+        http:layout_constraintBottom_toTopOf="@+id/guideline7"
+        http:layout_constraintEnd_toStartOf="@+id/guideline6"
+        http:layout_constraintHorizontal_bias="0.0"
+        http:layout_constraintStart_toStartOf="parent"
+        http:layout_constraintTop_toTopOf="parent"
+        http:layout_constraintVertical_bias="0.526" />
+
+    <TextView
+        android:id="@+id/tvDescription2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:shadowColor="#000000"
+        android:shadowDx="1.1"
+        android:shadowDy="1.1"
+        android:shadowRadius="1.1"
+        android:text="TextViewDescription"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        http:autoSizeTextType="uniform"
+        http:layout_constraintBottom_toTopOf="@+id/guideline8"
+        http:layout_constraintEnd_toEndOf="parent"
+        http:layout_constraintHorizontal_bias="0.0"
+        http:layout_constraintStart_toStartOf="@+id/guideline6"
+        http:layout_constraintTop_toTopOf="@+id/guideline7" />
+
+    <TextView
+        android:id="@+id/tvStock"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="5dp"
+        android:text="Stock: "
+        android:textColor="#000000"
+        android:textSize="17sp"
+        http:autoSizeTextType="uniform"
+        http:layout_constraintBottom_toTopOf="@+id/guideline2"
+        http:layout_constraintEnd_toStartOf="@+id/guideline6"
+        http:layout_constraintHorizontal_bias="0.0"
+        http:layout_constraintStart_toStartOf="parent"
+        http:layout_constraintTop_toTopOf="@+id/guideline8"
+        http:layout_constraintVertical_bias="0.473" />
+
+    <TextView
+        android:id="@+id/tvStock2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:shadowColor="#000000"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:text="TextViewStock"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        http:autoSizeTextType="uniform"
+        http:layout_constraintBottom_toTopOf="@+id/guideline2"
+        http:layout_constraintEnd_toEndOf="parent"
+        http:layout_constraintHorizontal_bias="0.0"
+        http:layout_constraintStart_toStartOf="@+id/guideline6"
+        http:layout_constraintTop_toTopOf="@+id/guideline8"
+        http:layout_constraintVertical_bias="0.473" />
+
+    <TextView
+        android:id="@+id/tvItemCode2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:shadowColor="#000000"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:text="TextViewItemCode"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        http:autoSizeTextType="uniform"
+        http:layout_constraintBottom_toTopOf="@+id/guideline7"
+        http:layout_constraintEnd_toEndOf="parent"
+        http:layout_constraintHorizontal_bias="0.0"
+        http:layout_constraintStart_toStartOf="@+id/guideline6"
+        http:layout_constraintTop_toTopOf="parent"
+        http:layout_constraintVertical_bias="0.526" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="5dp"
+        android:text="Description: "
+        android:textColor="#000000"
+        android:textSize="17sp"
+        http:autoSizeTextType="uniform"
+        http:layout_constraintBottom_toTopOf="@+id/guideline8"
+        http:layout_constraintEnd_toStartOf="@+id/guideline6"
+        http:layout_constraintHorizontal_bias="0.0"
+        http:layout_constraintStart_toStartOf="parent"
+        http:layout_constraintTop_toTopOf="@+id/guideline7" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        http:layout_constraintGuide_percent="0.35" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        http:layout_constraintGuide_percent="0.22" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        http:layout_constraintGuide_percent="0.44" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        http:layout_constraintGuide_percent="1.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        http:layout_constraintGuide_percent="0.66" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        http:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        http:layout_constraintGuide_percent="0.5" />
+
+    <ImageView
+        android:id="@+id/ivStockQuit"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        http:layout_constraintBottom_toTopOf="@+id/guideline9"
+        http:layout_constraintEnd_toStartOf="@+id/guideline15"
+        http:layout_constraintStart_toStartOf="@+id/guideline4"
+        http:layout_constraintTop_toTopOf="@+id/guideline2"
+        http:srcCompat="@drawable/minus" />
+
+    <ImageView
+        android:id="@+id/ivRegistry"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        http:layout_constraintBottom_toTopOf="@+id/guideline9"
+        http:layout_constraintEnd_toStartOf="@+id/guideline"
+        http:layout_constraintStart_toStartOf="parent"
+        http:layout_constraintTop_toTopOf="@+id/guideline2"
+        http:srcCompat="@drawable/ic_history_black_24dp" />
+
+    <ImageView
+        android:id="@+id/ivDelete"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        http:layout_constraintBottom_toTopOf="@+id/guideline9"
+        http:layout_constraintEnd_toEndOf="parent"
+        http:layout_constraintStart_toStartOf="@+id/guideline15"
+        http:layout_constraintTop_toTopOf="@+id/guideline2"
+        http:srcCompat="@drawable/ic_delete_black_24dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        http:layout_constraintGuide_percent="0.75" />
+
+    <ImageView
+        android:id="@+id/ivStockAdd"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        http:layout_constraintBottom_toTopOf="@+id/guideline9"
+        http:layout_constraintEnd_toStartOf="@+id/guideline4"
+        http:layout_constraintStart_toStartOf="@+id/guideline"
+        http:layout_constraintTop_toTopOf="@+id/guideline2"
+        http:srcCompat="@drawable/add" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
