@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/weatherIcon"
+        android:icon="@drawable/ic_wb_sunny_black_24dp"
+        android:title="Temps"
+        app:showAsAction="always|withText"></item>
+    <item
+        android:id="@+id/allMovements"
+        android:icon="@drawable/allmovements"
+        android:title="Moviments"
+        app:showAsAction="always|withText">
+    </item>
+    <item
+        android:id="@+id/allItems"
+        app:showAsAction="never"
+        android:title="Tots els articles">
+    </item>
+    <item
+        android:id="@+id/stockItems"
+        app:showAsAction="never"
+        android:title="Articles en stock">
+    </item>
+    <item
+        android:id="@+id/noStockItems"
+        app:showAsAction="never"
+        android:title="Articles sense stock">
+    </item>
+</menu>
